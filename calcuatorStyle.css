@@ -1,0 +1,56 @@
+h1,h4,p{
+    text-align: center;
+}
+
+.container {
+    border: 2px solid #6c757d;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+body{
+    background-color: #cabfa6;
+}
+
+button {
+    border-radius: 8px;
+    margin: 5px;
+}
+
+button#resetButton {
+    background-color: #dc3545 !important;
+    color: white !important;
+    border: none !important;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+#resultContainer {
+    width: fit-content;
+    margin: 0 auto;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+select.form-select:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+select.form-select:focus {
+    outline: none;
+    border-color: #495057;
+    box-shadow: 0 0 8px rgba(73, 80, 87, 0.5);
+}
